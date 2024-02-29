@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- left part -->
+    <aside>
+      <img id="logo" src="images/no-text-logo.png" alt="" />
+      <img id="text-logo" src="images/text-logo.png" alt="" />
+
+      <nav>
+        <a href="#">
+          <i class="bi bi-house-fill"></i>
+          <span>Anasayfa</span>
+        </a>
+        <a href="#">
+          <i class="bi bi-search"></i>
+          <span>Arama</span>
+        </a>
+        <a href="#">
+          <i class="bi bi-bookmark-fill"></i>
+          <span>Kutuphane</span>
+        </a>
+        <a href="#">
+          <i class="bi bi-music-note-list"></i>
+          <span>Calma Listesi</span>
+        </a>
+        <a href="#">
+          <i class="bi bi-heart-fill"></i>
+          <span>Begenilen Sarkilar</span>
+        </a>
+      </nav>
+    </aside>
+
+    <!-- main content -->
+    <main>
+      <!-- top part -->
+      <header>
+        <form id="search-form">
+          <input type="search" placeholder="sarki ismi giriniz" id="" />
+          <button>
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+
+        <ul>
+          <li>Premium</li>
+          <li>Destek</li>
+          <li>Indirmeler</li>
+          <li>Kayit Ol</li>
+        </ul>
+
+        <!-- DARK MOD -->
+        <label class="theme-switch">
+          <input
+            id="mode-checkbox"
+            type="checkbox"
+            class="theme-switch__checkbox"
+          />
+          <div class="theme-switch__container">
+            <div class="theme-switch__clouds"></div>
+            <div class="theme-switch__stars-container"></div>
+            <div class="theme-switch__circle-container">
+              <div class="theme-switch__sun-moon-container">
+                <div class="theme-switch__moon">
+                  <div class="theme-switch__spot"></div>
+                  <div class="theme-switch__spot"></div>
+                  <div class="theme-switch__spot"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
+      </header>
+
+      <!-- songs -->
+      <div class="songs">
+        <h2 id="title">Bugun en populer</h2>
+
+        <div id="list">
+          <!-- card -->
+          <!-- <div class="card">
+            <figure>
+              <img src="images/loadingg.gif" alt="" />
+              <div id="play">
+                <i id="play-btn" class="bi bi-play-fill"></i>
+              </div>
+            </figure>
+
+            <h4>Athena</h4>
+            <p>Ben Boyleyim</p>
+          </div> -->
+          <!-- card-end -->
+        </div>
+      </div>
+    </main>
+
+    <!-- player part -->
+    <div class="play-area">
+      <!-- <div>
+        <img class="animate" src="" />
+        <div>
+          <p>Su an oynatilyor</p>
+          <h3>Unforgiven</h3>
+        </div>
+      </div>
+
+      <audio controls src=""></audio> -->
+    </div>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
