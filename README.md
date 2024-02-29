@@ -1,4 +1,4 @@
-<h1>Spotufy-Clone HTML-SASS-JS Responsive Project</h1>
+<h1>Spotify-Clone HTML-SASS-JS Responsive Project</h1>
 
 <hr>
 
